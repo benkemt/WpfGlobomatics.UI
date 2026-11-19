@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Dev/Dev.csproj" />
   <Project Path="WpfApp/Globomatics.UI.WPF.csproj" />
 </Solution>
