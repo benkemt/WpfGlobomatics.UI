@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Globomatics.UI.WPF</id>
+    <version>$version$</version>
+    <title>Globomatics UI for WPF</title>
+    <authors>Benjamin Moiroud</authors>
+    <description>Globomatics WPF themes and styles. Merge Themes/Globomatics.UI.WPF.xaml into your application resources and use the http://globomatics.com/2019/ui/wpf XAML namespace.</description>
+    <tags>wpf xaml theme styles ui globomatics</tags>
+    <projectUrl>https://github.com/benkemt/WpfGlobomatics.UI</projectUrl>
+    <repository type="git" url="https://github.com/benkemt/WpfGlobomatics.UI.git" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <group targetFramework="net10.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net10.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\net10.0-windows\Globomatics.UI.WPF.dll" target="lib\net10.0-windows7.0" />
+    <file src="bin\$configuration$\net10.0-windows\Globomatics.UI.WPF.pdb" target="lib\net10.0-windows7.0" />
+  </files>
+</package>
