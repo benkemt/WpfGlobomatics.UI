@@ -4,5 +4,10 @@
              xmlns:local="clr-namespace:Dev"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Globomatics.UI.WPF;component/Themes/Globomatics.UI.WPF.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
